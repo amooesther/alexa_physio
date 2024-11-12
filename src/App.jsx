@@ -11,8 +11,6 @@ import MyAppointments from './Pages/MyAppointments.jsx';
 import Navbar from './Components/Navbar.jsx';
 import Footer from './Components/Footer.jsx';
 import { AppointmentProvider } from './Contexts/AppointmentContext.jsx';
-import Payment from './Pages/Payment.jsx';
-import PaymentSuccess from './Pages/PaymentSuccess.jsx';
 import { assets } from './assets/assets.js';
 
 const App = () => {
@@ -29,9 +27,7 @@ const App = () => {
           <Route path='/services' element={<Service />} />
           <Route path='/appointment' element={<Appointments />} />
           <Route path='/my-appointment' element={<MyAppointments />} />
-          <Route path='/payment' element={<Payment />} />
-          <Route path='/payment-success' element={<PaymentSuccess />} />
-        </Routes>
+          </Routes>
       </AppointmentProvider>
       <a
         href="https://wa.link/8zvxq3"

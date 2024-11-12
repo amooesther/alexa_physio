@@ -71,13 +71,7 @@ const MyAppointments = () => {
             </ul>
 
             {/* Payment Button */}
-            <div className="mt-5">
-              <Link to='/payment'>
-                <button className="w-full bg-secondary text-white px-4 py-3 rounded-full text-sm hover:scale-105 transition-all duration-300">
-                  Proceed to Payment
-                </button>
-              </Link>
-            </div>
+           
           </>
         ) : (
           <p className='text-gray-700 text-center'>No appointments booked yet.</p>
