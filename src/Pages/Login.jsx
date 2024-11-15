@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { auth } from '../Contexts/firebase'; 
+import { auth } from '../Contexts/firebase';
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'firebase/auth';
 
 const Login = () => {
@@ -10,8 +10,19 @@ const Login = () => {
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
 
+  const validateEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Regex to validate email format
+    return emailRegex.test(email);
+  };
+
   const onSubmitHandle = async (e) => {
     e.preventDefault();
+
+    // Validate email before proceeding
+    if (!validateEmail(email)) {
+      toast.error("Please enter a valid email address.");
+      return;
+    }
 
     try {
       if (state === 'Sign Up') {
@@ -42,7 +53,7 @@ const Login = () => {
             {state === 'Sign Up' ? 'Create account' : 'Login'}
           </p>
           <p>Please {state === 'Sign Up' ? 'Sign up' : 'Login'} to book an appointment</p>
-          
+
           {state === 'Sign Up' && (
             <div className='w-full'>
               <p>Full name</p>
@@ -55,7 +66,7 @@ const Login = () => {
               />
             </div>
           )}
-          
+
           <div className='w-full'>
             <p>Email</p>
             <input
@@ -66,7 +77,7 @@ const Login = () => {
               required
             />
           </div>
-          
+
           <div className='w-full'>
             <p>Password</p>
             <input
@@ -77,11 +88,11 @@ const Login = () => {
               required
             />
           </div>
-          
+
           <button className='bg-secondary text-primary w-full py-2 rounded text-base'>
             {state === 'Sign Up' ? 'Create account' : 'Login'}
           </button>
-          
+
           {state === 'Sign Up' ? (
             <p>Already have an account? 
               <span onClick={() => setState('Login')} className='text-secondary underline cursor-pointer'> Login here</span>

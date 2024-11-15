@@ -103,14 +103,10 @@ const Navbar = () => {
         <NavLink to='/contact' onClick={() => setShowMenu(false)} className={({ isActive }) => (isActive ? 'py-1 text-primary' : 'py-1 text-secondary')}>
           Contact
         </NavLink>
-        <NavLink to='/my-appointment' onClick={() => setShowMenu(false)} className={({ isActive }) => (isActive ? 'py-1 text-primary' : 'py-1 text-secondary')}>
-          My Appointments
-        </NavLink>
+       
         {user ? (
           <>
-            <NavLink to='/profile' onClick={() => setShowMenu(false)} className={({ isActive }) => (isActive ? 'py-1 text-primary' : 'py-1 text-secondary')}>
-              My Profile
-            </NavLink>
+            
             <p onClick={() => { handleLogout(); setShowMenu(false); }} className='py-1 text-secondary cursor-pointer'>Logout</p>
           </>
         ) : (
