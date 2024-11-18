@@ -60,6 +60,9 @@ const Navbar = () => {
         <NavLink to='/my-appointment' onClick={() => setShowMenu(false)} className={({ isActive }) => (isActive ? 'py-1 text-primary' : 'py-1 text-secondary')}>
           My Appointments
         </NavLink>
+        <NavLink to='/news' onClick={() => setShowMenu(false)} className={({ isActive }) => (isActive ? 'py-1 text-primary' : 'py-1 text-secondary')}>
+        News
+        </NavLink>
       </ul>
 
       <div className='flex items-center gap-4'>
@@ -102,6 +105,9 @@ const Navbar = () => {
         </NavLink>
         <NavLink to='/contact' onClick={() => setShowMenu(false)} className={({ isActive }) => (isActive ? 'py-1 text-primary' : 'py-1 text-secondary')}>
           Contact
+        </NavLink>
+        <NavLink to='/news' onClick={() => setShowMenu(false)} className={({ isActive }) => (isActive ? 'py-1 text-primary' : 'py-1 text-secondary')}>
+          News
         </NavLink>
        
         {user ? (

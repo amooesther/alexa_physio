@@ -12,6 +12,8 @@ import Navbar from './Components/Navbar.jsx';
 import Footer from './Components/Footer.jsx';
 import { AppointmentProvider } from './Contexts/AppointmentContext.jsx';
 import { assets } from './assets/assets.js';
+import News from './Pages/News.jsx';
+
 
 const App = () => {
   return (
@@ -27,6 +29,7 @@ const App = () => {
           <Route path='/services' element={<Service />} />
           <Route path='/appointment' element={<Appointments />} />
           <Route path='/my-appointment' element={<MyAppointments />} />
+          <Route path='/news' element={<News/>} />
           </Routes>
       </AppointmentProvider>
       <a

@@ -43,13 +43,22 @@ const Testimonial = () => {
           ▶
         </button>
       </div>
+      <div className="flex flex-col lg:flex-row gap-6 w-full">
+  <iframe
+    className="flex-1 h-64 lg:h-96 lg:w-full rounded-lg border border-primary shadow-md"
+    src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=4,%20Ado%20street%20Ijapo%20estate%20Akure%20ondo%20state+(Alexa%20Physiotherapy%20and%20Rehabilitation%20Clinic)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+    allowFullScreen
+    title="Akure Clinic Location"
+  ></iframe>
+  <iframe
+    className="flex-1 h-64 lg:h-96  rounded-lg border border-primary shadow-md"
+    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=44%20Community%20road%20off%20Bamishile%20street%20off%20allen%20avenue%20Ikeja%20Lagos+(Alexa%20Physiotherapy%20and%20Rehabilitation%20%20Clinic)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+    allowFullScreen
+    title="Ikeja Clinic Location"
+  ></iframe>
+</div>
 
-      <iframe
-        className='w-full h-64 rounded-lg border-0'
-        src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=4,%20Ado%20street%20Ijapo%20estate%20Akure%20ondo%20state+(Alexa%20Physiotherapy%20and%20Rehabilitation%20Clinic)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-        allowFullScreen
-        title="Clinic Location"
-      ></iframe>
+     
     </div>
   );
 }

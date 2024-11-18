@@ -1,9 +1,22 @@
 import header_img from './header_img.jpg';
 import headerTwo_img from './headerTwo_img.jpg';
-import profile_pic from './profile_pic.png';
+import profile_pic from './profile_pic.jpg';
 import about_image from './about_image.jpg';
 import stroke from './stroke.jpg';
 import doctor from './doctor.png';
+import news1 from './News1.jpg';
+import news2 from './News2.jpg';
+import news3 from './News3.jpg';
+import news4 from './News4.jpg';
+import news5 from './News5.jpg';
+import news6 from './News6.jpg';
+import news7 from './News7.jpg';
+import news8 from './News8.jpg';
+import news9 from './News9.jpg';
+import news10 from './News10.jpg';
+import news11 from './News11.jpg';
+import news12 from './News12.jpg';
+import news13 from './News13.jpg';
 import ready_img from './ready_img.jpg';
 import logo from './logo.png';
 import logo2 from './logo2.png';
@@ -45,5 +58,5 @@ export const assets = {
   pain,
   neurology,
   service_img,
-  upload_area,
+  upload_area,news1,news2,news3,news4,news5,news6,news7,news8,news9,news10,news11,news12,news13
 };

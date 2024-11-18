@@ -70,7 +70,7 @@ const MyAppointments = () => {
               ))}
             </ul>
 
-            {/* Payment Button */}
+            
            
           </>
         ) : (
