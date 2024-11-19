@@ -2,6 +2,7 @@
   "name": "alexaphysiorehab",
   "private": true,
   "version": "0.0.0",
+  "homepage": "alexaphysiorehab.com",
   "type": "module",
   "scripts": {
     "dev": "vite",

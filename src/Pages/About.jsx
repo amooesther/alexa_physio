@@ -71,7 +71,7 @@ const AboutUs = () => {
         className="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110"
       />
       <div className="absolute bottom-4 left-4 bg-white/80 p-4 rounded-md text-center shadow-md backdrop-blur-sm">
-        <p className="text-secondary font-semibold">Amoo Esther O.</p>
+        <p className="text-secondary font-semibold">Israel Oluwatoyin.</p>
         <span className="text-sm text-gray-600">Human Resource Manager</span>
       </div>
     </div>
