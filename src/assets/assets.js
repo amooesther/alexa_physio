@@ -17,6 +17,8 @@ import news10 from './News10.jpg';
 import news11 from './News11.jpg';
 import news12 from './News12.jpg';
 import news13 from './News13.jpg';
+import Lagos1 from './Lagos1.jpg';
+import Lagos2 from './Lagos2.jpg';
 import ready_img from './ready_img.jpg';
 import logo from './logo.png';
 import logo2 from './logo2.png';
@@ -57,6 +59,6 @@ export const assets = {
   surgical_rehab,
   pain,
   neurology,
-  service_img,
+  service_img,Lagos1,Lagos2,
   upload_area,news1,news2,news3,news4,news5,news6,news7,news8,news9,news10,news11,news12,news13
 };
