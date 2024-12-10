@@ -102,26 +102,9 @@ const AboutUs = () => {
   </div>
 </div>
 
-<div className="w-full max-w-5xl bg-white rounded-lg shadow-lg p-10 lg:flex lg:items-center lg:space-x-8 hover:scale-105 transition-transform duration-300 ease-in-out">
-  <div className="lg:w-1/3">
-    <div className="relative overflow-hidden rounded-lg shadow-md group">
-      <img
-        src={assets.Lagos2}
-        alt="Alexa Lagos Coordinator"
-        className="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110"
-      />
-      <div className="absolute bottom-4 left-4 bg-white/60 p-4 rounded-md text-center shadow-md backdrop-blur-sm">
-        <p className="text-secondary font-semibold">Mr. Segun Ozique</p>
-        <span className="text-sm text-gray-800">Alexa Lagos Coordinator</span>
-      </div>
-    </div>
-  </div>
-  <div className="lg:w-2/3 text-center lg:text-left space-y-4 text-gray-700 leading-relaxed text-lg">
-    <p>
-    Segun Ozique is the Coordinator of Alexa Physiotherapy and Rehabilitation Clinic(Alexa), Lagos. He is a highly accomplished professional with diverse skills and expertise. He is a graduate of the prestigious Universities of Ibadan, Manchester, and the Open University, UK, with a strong educational background in the Social Sciences, Primary Health Care, Creative Writing, and physiotherapy, Segun has consistently demonstrated his commitment to learning, training, and personal development.
-    </p>
-  </div>
-</div>
+
+      
+
     </section>
   );
 };
