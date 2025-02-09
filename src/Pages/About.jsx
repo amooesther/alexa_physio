@@ -81,26 +81,6 @@ const AboutUs = () => {
   </div>
 </div>
 
-<div className="w-full max-w-5xl bg-white rounded-lg shadow-lg p-10 lg:flex lg:items-center lg:space-x-8 hover:scale-105 transition-transform duration-300 ease-in-out">
-  <div className="lg:w-1/3">
-    <div className="relative overflow-hidden rounded-lg shadow-md group">
-      <img
-        src={assets.Lagos1}
-        alt="Alexa Lagos partner"
-        className="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110"
-      />
-      <div className="absolute bottom-4 left-4 bg-white/60 p-4 rounded-md text-center shadow-md backdrop-blur-sm">
-        <p className="text-secondary font-semibold">Mr. Adeoye Ojuoko</p>
-        <span className="text-sm text-gray-800">Alexa Lagos Partner</span>
-      </div>
-    </div>
-  </div>
-  <div className="lg:w-2/3 text-center lg:text-left space-y-4 text-gray-700 leading-relaxed text-lg">
-    <p>
-    Mr Adeoye Ojuoko is a Director at Alexa Physiotherapy and Rehabilitation Clinic (Alexa), Lagos. He is an indigene of Ilara-Mokin, Ondo State, and the CEO and Board Chairman of Work and Play Promotions Ltd. He is also Executive Director and partner in several blue chip organisations one of which is Alexa, Lagos. Mr. Ojuoko is well travelled, amiable, empathetic and dexterous socially and in business.
-    </p>
-  </div>
-</div>
 
 
       
