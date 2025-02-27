@@ -3,14 +3,16 @@ import React, { useState, useEffect } from 'react';
 const Testimonial = () => {
   const [startIndex, setStartIndex] = useState(0);
   const testimonials = [
-    { id: 1, name: 'Ebenezer Tope', text: 'A very wonderful and high-rated Physiotherapy in Akure, Ondo State.' },
-    { id: 2, name: 'Oluwapelumi Omoleke', text: 'They have one of the best hands. Highly recommend for impressive results!' },
-    { id: 3, name: 'Ambrose Kolurejo', text: 'Service was okay.' },
+    { id: 1, name: 'Mrs Iyabo Adefemi', text: 'I was very satisfied with the customer service and treatment process. The quality of service was excellent, and I felt I got great value.' },
+    { id: 2, name: 'Mrs Fapounda', text: 'was satisfied with the customer service, treatment process, and overall and would highly recommend it to others' },
+    { id: 3, name: 'Mrs Oladapo', text: ' had a great experience with excellent treatment and high-quality service. The care provided was well worth it, and I would gladly recommend it to others.' },
     { id: 4, name: 'Ebenezer Tope', text: 'A very wonderful and high-rated Physiotherapy in Akure, Ondo State.' },
     { id: 5, name: 'Oluwapelumi Omoleke', text: 'They have one of the best hands. Highly recommend for impressive results!' },
     { id: 6, name: 'Ambrose Kolurejo', text: 'Service was okay.' },
     { id: 7, name: 'Ebenezer Tope', text: 'A very wonderful and high-rated Physiotherapy in Akure, Ondo State.' },
-    { id: 8, name: 'Oluwapelumi Omoleke', text: 'They have one of the best hands. Highly recommend for impressive results!' },
+    { id: 8, name: 'Engr Omotayo', text: 'i am very satisfied with the service and care i received' },
+    { id: 9, name: 'Olawepo Bukola', text: 'I was extremely pleased with the care I received. The customer service was great, the treatment process went smoothly, and the overall quality was excellent. I would definitely recommend it to others.' },
+    { id: 10, name: 'Mr Rufai  Tajudeed', text: 'Keep the good work going' }, 
   ];
 
   useEffect(() => {
