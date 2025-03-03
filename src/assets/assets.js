@@ -36,6 +36,7 @@ import pain from './pain.jpg';
 import neurology from './neurology.jpg';
 import service_img from './service_img.jpeg';
 import upload_area from './upload_area.png';
+import relaxation from './relaxation.jpg';
 
 export const assets = {
   header_img,
@@ -59,6 +60,6 @@ export const assets = {
   surgical_rehab,
   pain,
   neurology,
-  service_img,Lagos1,Lagos2,
+  service_img,Lagos1,Lagos2,relaxation,
   upload_area,news1,news2,news3,news4,news5,news6,news7,news8,news9,news10,news11,news12,news13
 };
